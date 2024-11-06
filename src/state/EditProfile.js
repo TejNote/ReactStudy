@@ -27,7 +27,12 @@ export default function EditProfile() {
         });
       }}
     >
-      <label>
+      <label
+        style={{
+          fontStyle: "italic",
+          fontWeight: "bold",
+        }}
+      >
         First name: <b style={textStyle}>{profile.firstName}</b>
         <input
           value={profile.firstName}
